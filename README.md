@@ -1,40 +1,51 @@
-HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NutriLife - Dietician Landing Page
 
-## Getting Started
+A **premium, responsive, and animated landing page** for a dietician website built using **Next.js**, **Tailwind CSS**, and **Framer Motion**. Designed to showcase services, pricing plans, testimonials, and encourage visitors to book consultations.
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop screens.
+- **Animated Hero Section**: Smooth entrance animations using Framer Motion.
+- **Services Section**: Interactive cards with hover effects.
+- **Plans & Pricing**: Highlighted popular plan with clear features.
+- **Testimonials**: Client feedback section to build trust.
+- **Call-To-Action Section**: Easy-to-access consultation booking button.
+- **Sticky Navbar**: Smooth scrolling to sections.
+- **Parallax & Background Animations**: Engaging visual effects.
+- **Modern UI/UX**: Clean, minimal, and premium look.
+
+---
+
+## 📦 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- React & JavaScript
+- HTML5 & CSS3
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/manognya66/DieticianLandingPage.git
+cd DieticianLandingPage
+
+## 📁 Folder Structure
+/public          # Static assets (images, fonts)
+src/app/components  # React components (Hero, About, Services, Plans, Testimonials, CTA, Footer, Navbar)
+src/app/page.js      # Main landing page
+src/app/globals.css  # Global styles
+
+npm install
+# or
+yarn install
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-# DieticianLandingPage
- eee27c968d57809a07ff1ec9b39fc0a8d72298c1
