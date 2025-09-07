@@ -42,10 +42,12 @@ src/app/components  # React components (Hero, About, Services, Plans, Testimonia
 src/app/page.js      # Main landing page
 src/app/globals.css  # Global styles
 
+Install dependencies:
 npm install
 # or
 yarn install
 
+Start the development server:
 npm run dev
 # or
 yarn dev
