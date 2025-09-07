@@ -36,7 +36,7 @@ Clone the repository:
 git clone https://github.com/manognya66/DieticianLandingPage.git
 cd DieticianLandingPage
 
-## 📁 Folder Structure
+📁 Folder Structure
 /public          # Static assets (images, fonts)
 src/app/components  # React components (Hero, About, Services, Plans, Testimonials, CTA, Footer, Navbar)
 src/app/page.js      # Main landing page
